@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Training outputs and large artifacts
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npy
+*.npz
+*.parquet
+*.csv
+*.sqlite
+*.sqlite-*
+*.log
+logs/
+backtest_results/
+
+# Market data / teacher cache
+data/
+data_4h/
+user_data/data/
+user_data/backtest_results/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/

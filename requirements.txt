@@ -1,0 +1,10 @@
+numpy
+pandas
+pyarrow
+torch>=2.0.0
+setuptools
+# Optional for teacher cache rebuilds / serving / freqtrade integration:
+# mamba-ssm
+# fastapi
+# uvicorn
+# freqtrade
